@@ -3,7 +3,7 @@
     <input
       <#if checked>checked</#if>
 
-      class="border-secondary-200 focus:ring-primary-600"
+      class="border-secondary-200 focus:ring-bevy-600"
       id="${id}"
       type="radio"
 
