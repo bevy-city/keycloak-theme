@@ -1,0 +1,8 @@
+{
+  "themes": [
+    {
+      "name": "bevygate",
+      "types": ["login"]
+    }
+  ]
+}
