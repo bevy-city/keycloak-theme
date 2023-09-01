@@ -12,7 +12,6 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: colors.bevy,
         secondary: colors.gray,
 
         // Currently only the shades 200, 300, 500, 600, 700 are implemented
