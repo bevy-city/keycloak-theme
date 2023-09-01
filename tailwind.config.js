@@ -12,8 +12,24 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: colors.blue,
+        primary: colors.bevy,
         secondary: colors.gray,
+
+        // Currently only the shades 200, 300, 500, 600, 700 are implemented
+        // because these are used across the theme, the rest is not.
+        bevy: {
+          // 50: '#F9F9FA',
+          // 100: '#F3F4F5',
+          200: '#e7fff4',
+          300: '#cfffe8',
+          // 400: '#C0C4C8',
+          500: '#75b386',
+          600: '#487454',
+          700: '#325143',
+          // 800: '#59626F',
+          // 900: '#3F4859',
+          // 950: '#2F3640',
+        },
 
         provider: {
           bitbucket: '#0052CC',
