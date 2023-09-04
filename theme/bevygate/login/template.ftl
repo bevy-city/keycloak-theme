@@ -68,6 +68,7 @@
   <html>
     <head>
       <@document.kw script=script />
+      <link rel="icon" href="${url.resourcesPath}/img/favicon.ico"/>
     </head>
     <@body.kw>
       <@container.kw>
